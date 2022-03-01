@@ -1,0 +1,48 @@
+/* Hero Section */
+#hero {
+  background-image: url("../hero.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid grey bottom;
+  padding: 20px 30px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero-body {
+  padding-top: 20px;
+  font-size: 1rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.button-area {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+.btn-width {
+  width: 150px;
+}

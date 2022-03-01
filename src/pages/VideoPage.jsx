@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar2 from '../components/Navbar2'
 
-const PhotoPage = () => {
+const VideoPage = () => {
   return (
     <>
-    <Navbar2 />
-    <div>PhotoPage</div>
+        <Navbar2 />    
+        <div>VideoPage</div>
     </>
   )
 }
 
-export default PhotoPage
+export default VideoPage
