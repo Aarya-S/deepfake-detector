@@ -5,7 +5,7 @@ import '../css/Home.css';
 const Home = () => {
   return (
     <>
-    <Navbar2 />
+    <Navbar2 brandName="Deepfake" />
     <div id="hero">
         <h2 className='hero-title'>Deepfake Detector</h2>
         <h5 className='hero-subtitle'>Detect fake faces in photos and videos</h5>
